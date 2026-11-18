@@ -1,0 +1,23 @@
+PAKET WEBSITE SEA TURTLE VILLAGE — LOGO YAYASAN
+
+File di dalam folder ini adalah file lengkap untuk mengganti versi website sebelumnya.
+Logo resmi Yayasan Winarta Dharma Segara sudah dipasang di:
+1. Header website
+2. Bagian profil yayasan
+3. Footer website
+
+CARA UPLOAD:
+1. Buka repository GitHub: yayasanwinartadharmasegara/seaturtlevillage
+2. Masuk ke halaman utama repository (root).
+3. Upload semua file dari folder ini, termasuk logo-yayasan.png.
+4. Jika diminta, pilih Replace untuk file yang namanya sama.
+5. Klik Commit changes.
+6. Tunggu GitHub Pages selesai memperbarui website, lalu buka:
+   https://yayasanwinartadharmasegara.github.io/seaturtlevillage/
+
+PENTING:
+- Jangan hanya upload file ZIP. Ekstrak ZIP terlebih dahulu di Mac.
+- Upload semua file yang ada di dalam folder, bukan folder luarnya.
+- Pastikan logo-yayasan.png berada sejajar dengan index.html.
+- Foto-foto lain di website masih merupakan foto contoh dari versi awal.
+- Halaman admin awal bersifat lokal/draft, bukan dashboard online dengan database.
