@@ -59,3 +59,58 @@
   .foundation-profile img { width: 82px; height: 82px; }
   .footer-logo { width: 42px; height: 42px; }
 }
+
+
+/* FIX: constrain official foundation logo dimensions in every placement */
+.site-header .brand img.brand-logo,
+.footer .brand img.brand-logo {
+  display: block !important;
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  flex: 0 0 48px !important;
+  padding: 2px !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  box-sizing: border-box !important;
+}
+.foundation-profile img {
+  display: block !important;
+  width: 104px !important;
+  height: 104px !important;
+  min-width: 104px !important;
+  min-height: 104px !important;
+  max-width: 104px !important;
+  max-height: 104px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  flex: 0 0 104px !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+@media (max-width: 760px) {
+  .site-header .brand img.brand-logo,
+  .footer .brand img.brand-logo {
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    min-height: 42px !important;
+    max-width: 42px !important;
+    max-height: 42px !important;
+    flex-basis: 42px !important;
+  }
+  .foundation-profile img {
+    width: 78px !important;
+    height: 78px !important;
+    min-width: 78px !important;
+    min-height: 78px !important;
+    max-width: 78px !important;
+    max-height: 78px !important;
+    flex-basis: 78px !important;
+  }
+}

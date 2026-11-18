@@ -1,0 +1,12 @@
+PERBAIKAN UKURAN LOGO WEBSITE
+
+Paket ini menggantikan paket logo sebelumnya yang menyebabkan logo tampil terlalu besar.
+Desain awal website dipertahankan. Perubahan hanya memperketat ukuran logo pada header,
+profil yayasan, dan footer.
+
+Upload semua file dalam ZIP ini ke root repository GitHub, lalu pilih Replace untuk
+file dengan nama sama dan Commit changes. Pastikan logo-yayasan.png tetap berada
+sejajar dengan index.html.
+
+Setelah commit, lakukan hard refresh browser:
+Mac: Command + Shift + R
